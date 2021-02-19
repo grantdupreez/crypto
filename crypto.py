@@ -74,7 +74,7 @@ btc_df['vol_trend_signal'] = btc_df['vol_trend_long'] + btc_df['vol_trend_short'
 mc = yf.Ticker(select_currency)
 cur = select_currency
 cur = cur[-3:]
-st.write("Selected currency: " + select_currency)
+st.write("Selected currency: *" + select_currency + "* :sunglasses:")
 st.write("Market capitalisation: " + str(Money(mc.info["marketCap"], cur)))
 st.write("Bollinger band window:" + str(select_window))
 st.write("Short Moving Average:" + str(select_short))
