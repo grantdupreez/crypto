@@ -13,7 +13,7 @@ from money import Money
 
 st.title("Crypto Daily Analysis")
 
-select_currency = st.sidebar.selectbox('Currency?', ('BTC-GBP','BTC-USD', 'ETH-GBP','ETH-USD', 'ADA-GBP','ADA-USD', 'DOT-GBP','DOT-USD'))
+select_currency = st.sidebar.selectbox('Currency?', ('BTC-GBP','BTC-USD', 'ETH-GBP','ETH-USD', 'ADA-GBP','ADA-USD'))
 select_period = st.sidebar.selectbox('Select period?', ('10d','5d','1d'))
 #select_interval = st.sidebar.selectbox('Select interval?', ('90m','60m','30m','15m','5m','2m','1m'))
 select_interval = st.sidebar.selectbox('Interval?', ('90m','60m','30m','15m','5m'))
