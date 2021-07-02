@@ -77,6 +77,8 @@ cur = cur[-3:]
 st.write("Selected currency: *" + select_currency + "* :sunglasses:")
 #st.write("Market capitalisation: " + str(Money(mc.info["marketCap"], cur)))
 st.write("Market capitalisation: " + str(cur))
+st.write("Market capitalisation: " + str(mc.info["marketCap"]))
+
 st.write("Bollinger band window:" + str(select_window))
 st.write("Short Moving Average:" + str(select_short))
 st.write("Long Moving Average:" + str(select_long))
